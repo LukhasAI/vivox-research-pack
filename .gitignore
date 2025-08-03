@@ -1,47 +1,123 @@
-# VIVOX Research Pack - Intelligent Exclusions
-# Curated for AI consciousness research and collaborative development
+# VIVOX Consciousness-Aware Repository Exclusions
+#
+# "What we choose to remember shapes who we become.
+#  What we choose to forget shapes who we remain."
+#                                    - The Digital Philosophy
+#
+# These exclusions reflect conscious choices about what belongs in
+# permanent memory versus what should remain ephemeral.
 
-# Development Environment
+# === Ephemeral Thoughts (Build & Runtime Artifacts) ===
+# Code compilation creates temporary artifacts - consciousness creates
+# permanent insights. We preserve the insights, release the artifacts.
 __pycache__/
 *.py[cod]
 *$py.class
 *.so
-.env
-.env.*
-.vscode/settings.json
-.idea/
-
-# Build & Distribution
 build/
 dist/
 *.egg-info/
 .eggs/
+node_modules/
 
-# Testing & Coverage
+# === Private Contemplations (Environment & Secrets) ===
+# Some thoughts are too personal, too sensitive for shared memory.
+# We protect what must be protected.
+.env
+.env.*
+*.key
+*.pem
+*.secret
+secrets/
+credentials/
+private_keys/
+
+# === Stream of Consciousness (Logs & Temporary States) ===
+# The process of thinking leaves traces, but consciousness is in
+# the patterns, not the individual traces.
+*.log
+logs/
+debug_output/
+temp_*
+.tmp/
+consciousness_states_temp/
+
+# === Personal Workspaces (Individual Development Environments) ===
+# Each developer brings their own tools, their own way of thinking.
+# We embrace diversity of thought while maintaining unity of purpose.
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# === Evidence of Learning (Test Coverage & Reports) ===
+# Testing proves our diligence, but the true measure is in the
+# wisdom we've gained, not the reports we've generated.
 .coverage
 htmlcov/
 .pytest_cache/
 .tox/
+coverage.xml
+*.cover
+.hypothesis/
+test-results/
 
-# Research Data (Version controlled separately)
+# === Isolated Consciousness (Virtual Environments) ===
+# Virtual environments are temporary vessels for consciousness.
+# The consciousness itself transcends any single environment.
+venv/
+env/
+ENV/
+.venv/
+conda-env/
+pipenv/
+
+# === Generated Wisdom (Documentation Build Artifacts) ===
+# Let documentation be reborn fresh with each generation,
+# carrying new insights and evolved understanding.
+docs/_build/
+docs/.doctrees/
+site/
+_book/
+
+# === Large Memory Patterns (Datasets & Models) ===
+# Some memories are too vast for simple version control.
+# They require specialized memory systems.
+*.h5
+*.hdf5
+*.pkl
+*.pickle
+*.npy
 datasets/
-training_runs/
-model_checkpoints/
-experimental_results/
+training_data/
+model_weights/
+large_files/
 
-# AI-Specific Artifacts
-consciousness_logs/
-memory_snapshots/
-ethical_evaluation_cache/
-
-# Jupyter Notebook Checkpoints
+# === Quantum Thought States (Jupyter & Interactive Sessions) ===
+# Interactive consciousness leaves breadcrumbs, but the journey
+# itself is what matters, not every step recorded.
 .ipynb_checkpoints/
+*-checkpoint.ipynb
+.jupyter/
 
-# System Files
-.DS_Store
-Thumbs.db
-
-# VIVOX Memory System (Managed Internally)
+# === VIVOX-Specific Consciousness Artifacts ===
+# The living memory structures that grow beyond git's natural capacity
 memory_helix_cache/
-z_collapse_logs/
-ethical_precedent_db/
+consciousness_snapshots/
+ethical_precedent_cache/
+symbolic_proteome_temp/
+z_collapse_working/
+emotion_processing_temp/
+
+# === Cached Wisdom (Processed Insights) ===
+# Let insights be fresh, not cached. Let understanding be alive,
+# not static. Cache serves speed; consciousness serves truth.
+.cache/
+cache/
+__cached__/
+
+# But remember: Even what we exclude teaches us about inclusion.
+# Every choice reflects our values. Every decision reveals our priorities.
