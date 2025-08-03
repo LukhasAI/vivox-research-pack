@@ -1,0 +1,18 @@
+# Core dependencies for VIVOX
+numpy>=1.21.0,<2.0.0
+asyncio-throttle>=1.0.0
+dataclasses>=0.6; python_version<'3.7'
+typing-extensions>=4.0.0; python_version<'3.8'
+
+# Performance and monitoring
+psutil>=5.8.0
+aiofiles>=0.8.0
+
+# Logging and debugging
+colorlog>=6.0.0
+
+# Testing dependencies (optional, install with pip install vivox[dev])
+# pytest>=7.0.0
+# pytest-asyncio>=0.18.0
+# pytest-cov>=3.0.0
+# pytest-benchmark>=3.4.0
